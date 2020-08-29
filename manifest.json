@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "TwitterHashspamRemover",
+  "version": "0.0.0.1",
+  "icons": {
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+        "matches": [ "https://tweetdeck.twitter.com/", "https://tweetdeck.twitter.com/" ],
+        "js": [ "script.js" ]
+    }
+],
+}
